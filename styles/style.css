@@ -1,0 +1,52 @@
+body{
+   background-image: linear-gradient(to right, rgb(247, 178, 137), #5f1782);
+}
+.bridgeHeader{
+    font-size: 50px;
+    font-weight: 800;
+}
+.nav-link:hover{
+    border: 2px solid blue;
+}
+.active-nav-link{
+    border: 2px solid blue;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: 100;
+    color: white;
+    padding: 20px;
+}
+.link a{
+    color: white;
+}
+.link a:hover{
+    border: 2px solid white;
+    padding: 10px;
+}
+.background-imgage-container{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.object-content h5{
+    color: yellow;
+}
+.object-content p{
+    color: white;
+}
+.object-content{
+    border: 3px solid rgb(247, 178, 137);
+    box-sizing: border-box;
+    position: relative;
+   
+}
+.object-content:hover{
+    box-shadow: blue;
+    box-shadow:0px 10px 50px blue;
+}
